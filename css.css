@@ -82,7 +82,7 @@ li a:hover {
 }
 
 h2{
-	padding-top: 70px;
+	padding-top: 90px;
 	text-align: center;
 	color: #990B4F;
 	font-family: 'Roboto', sans-serif;
@@ -233,5 +233,11 @@ h4 {
 .phone {
 	grid-column: 3 / span 2;
     grid-row: 1;
+}
+
+.footer-gradient {
+	height: 80px;
+	max-width: 100%;
+	margin-bottom: -5px;
 }
 
