@@ -49,8 +49,21 @@ li a:hover {
 	height: 40;
 }
 
+.background-container {
+	position: relative
+}
 
-img {
+.hello {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 100%;
+  width: 1050px;
+  height: auto;
+}
+
+.background {
 	height: auto;
 	max-width: 100%;
 	margin-top: -1px;
@@ -61,7 +74,7 @@ img {
 	height: auto;
 	max-width: 100%;
 	margin-top: -5px;
-	padding: 30px;
+	padding: 50px;
 	text-align: center;
 	color: white;
 	font-family: 'Roboto', sans-serif;
@@ -78,6 +91,9 @@ h2{
 
 .grid-container_work {
 	display: grid;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
 	grid-gap: 20px;
 	background-color: white;
 	padding: 50px;
@@ -171,7 +187,7 @@ button:hover {
 }
 
 
-.footer {
+.contact {
   background-color: #1D2127;
   margin: 0px auto 0px auto;	
 }
@@ -181,7 +197,7 @@ h4 {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   font-size: 25px; 	
-  padding-top: 80px;
+  padding-top: 60px;
   margin-top: 0px;	
 }
 
@@ -193,9 +209,10 @@ h4 {
   align-items: center;	
   grid-gap: 0px;
   padding: 20px;
+  padding-bottom: 50px;	
 }
 
-.footer-item {		
+.contact-item {		
   text-align: center;
   padding: 20px;
   font-size: 20px;
@@ -203,12 +220,14 @@ h4 {
   max-width: 100%;
   font-family: 'Roboto', sans-serif;
   color: white;
+
 }
  	
 
 .mail {
 	grid-column: 1 / span 2;
     grid-row: 1;
+	margin-top: 50px;	
 }
 
 .phone {
