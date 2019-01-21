@@ -45,7 +45,7 @@ li a:hover {
 .logo {
 	float: left;
 	margin: 20px;
-	width: 215px;
+	max-width: 215px;
 	height: 40;
 }
 
@@ -58,14 +58,14 @@ li a:hover {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  max-width: 100%;
-  width: 1050px;
+  max-width: 1050px;
+  width: 70%;
   height: auto;
 }
 
 .background {
 	height: auto;
-	max-width: 100%;
+	width: 100%;
 	margin-top: -1px;
 }
 
@@ -134,16 +134,25 @@ h2{
 
 .text {
   color: white;
-  font-size: 20px;
+  font-size: 30px;
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
   font-family: 'Roboto', sans-serif;	
 }
+
+.animation-project {
+	position: absolute;
+	top: 50%;
+    left: 50%;
+    max-width: 650px;
+    width: 50%;
+    height: auto;
+    transform: translate(-50%, -50%);
+}
+
 
 .light-box {
 	background-color: #EEEEEE;
@@ -164,6 +173,7 @@ h3 {
 	font-style: normal;	
 	font-size: 80px;
 	margin: auto;
+	
 	
 }
 
@@ -197,7 +207,7 @@ h4 {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   font-size: 25px; 	
-  padding-top: 60px;
+  padding-top: 100px;
   margin-top: 0px;	
 }
 
@@ -209,7 +219,7 @@ h4 {
   align-items: center;	
   grid-gap: 0px;
   padding: 20px;
-  padding-bottom: 50px;	
+  padding-bottom: 100px;	
 }
 
 .contact-item {		
@@ -236,7 +246,7 @@ h4 {
 }
 
 .footer-gradient {
-	height: 80px;
+	height: 30px;
 	max-width: 100%;
 	margin-bottom: -5px;
 }
