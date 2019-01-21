@@ -86,7 +86,7 @@ h2{
 	text-align: center;
 	color: #990B4F;
 	font-family: 'Roboto', sans-serif;
-	font-size: 30px;
+	font-size: 35px;
 }
 
 .grid-container_work {
@@ -172,9 +172,7 @@ h3 {
     font-weight: 400;
 	font-style: normal;
 	font-size: 80px;
-	margin: auto;
-
-
+	margin: auto;	
 }
 
 button {
@@ -206,6 +204,7 @@ h4 {
   color: white;
   text-align: center;
   font-family: 'Roboto', sans-serif;
+  font-style: normal;
   font-size: 25px;
   padding-top: 100px;
   margin-top: 0px;
@@ -227,7 +226,7 @@ h4 {
   padding: 20px;
   font-size: 20px;
   height: auto;
-  max-width: 100%;
+  width: 100%;
   font-family: 'Roboto', sans-serif;
   color: white;
 
@@ -235,13 +234,21 @@ h4 {
 
 
 .mail {
-	grid-column: 1 / span 2;
+	grid-column: 1 / span 1;
     grid-row: 1;
 	margin-top: 50px;
 }
 
+.animation-contact{
+	grid-column: 2 / span 1;
+    grid-row: 1;
+	max-width: 30px;
+	max-height: 170px;
+
+}
+
 .phone {
-	grid-column: 3 / span 2;
+	grid-column: 3 / span 1;
     grid-row: 1;
 }
 
